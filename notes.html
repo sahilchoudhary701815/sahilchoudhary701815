@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        div{
+            padding-top: 20px;
+            background-color: rgb(204, 203, 203);
+        }
+        #notes{
+            margin-top:10px;
+            margin-left:225px;
+            height:150px;
+            width:700px;
+            color:cornflowerblue;
+            background-color: black;
+        }
+        #textbox{
+            margin-left: 225px;
+            width:700px;
+            color:lightcoral;
+            background-color: black;
+        }
+        button{
+            margin-left:10px;
+            background-color: aqua;
+        border-radius: 4px;}
+        #submit{
+            margin-left: 225px;
+            background-color:rgb(244, 234, 96);
+            border-radius: 4px;
+        }
+    </style>
+    </head>
+    <body>
+<div>
+    <input type="text" id="search" placeholder="search">
+    <button id="SearchButton" onclick="searchbox()">Search</button>
+    <br/>
+    <div id ='results'></div>
+    <br/>
+            <input type="text" id="textbox" placeholder="title">
+<br/>
+            <textarea id="notes" placeholder="your note"></textarea>
+            <br/>
+            <button onclick="submitClear()" id ='submit'>Submit</button>
+            <h1>Your Notes</h1>
+            <hr>
+            <span id="empty"></span>
+            </div> 
+<table id="cards">
+</table>
+        <script type='text/javascript' SRC="notes3.js">
+        </script>
+    </body>
+</html>
